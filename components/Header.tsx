@@ -13,22 +13,12 @@ export default function Header() {
           height={32}
         />
         <h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
-          twitterBio.com
+          Awesome 😎
         </h1>
       </Link>
-      <a
-        href="https://vercel.com/templates/next.js/twitter-bio"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          alt="Vercel Icon"
-          src="/vercelLogo.png"
-          className="sm:w-8 sm:h-[27px] w-8 h-[28px]"
-          width={32}
-          height={28}
-        />
-      </a>
+      <a href="https://www.buymeacoffee.com/awosome"><h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
+          Donate Us 💸
+        </h1></a>
     </header>
   );
 }
